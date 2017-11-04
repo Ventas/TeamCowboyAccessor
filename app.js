@@ -5,7 +5,11 @@ const app = express();
 
 app.get('/', function(req, res) {
   res.json({
-    Output: 'Hello World!'
+    one: 'one',
+    two: {
+        a: 'a',
+        b: 'b'
+    }
   });
 });
 
