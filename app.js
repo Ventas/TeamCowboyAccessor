@@ -4,14 +4,14 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res) {
-  res.send({
-    'Output': 'Hello World!'
+  res.json({
+    Output: 'Hello World!'
   });
 });
 
 app.post('/', function(req, res) {
-  res.send({
-    'Output': 'Hello World!'
+  res.json({
+    Output: 'Hello World!'
   });
 });
 
