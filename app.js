@@ -4,19 +4,16 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res) {
-  res.json({
-    one: 'one',
-    two: {
-        a: 'a',
-        b: 'b'
-    }
-  });
+    res.json({
+        public: process.env.PUBLIC_API_KEY,
+        private: process.env.PRIVATE_API_KEY
+    });
 });
 
 app.post('/', function(req, res) {
-  res.json({
-    Output: 'Hello World!'
-  });
+    res.json({
+        Output: 'Hello World!'
+    });
 });
 
 
