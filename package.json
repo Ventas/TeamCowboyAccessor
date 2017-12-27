@@ -5,6 +5,7 @@
     "private": true,
     "dependencies": {
         "express": "latest",
-        "aws-serverless-express": "latest"
+        "aws-serverless-express": "latest",
+        "uuid": "latest"
     }
 }
