@@ -7,6 +7,7 @@
         "express": "latest",
         "aws-serverless-express": "latest",
         "aws-sdk": "latest",
-        "uuid": "latest"
+        "uuid": "latest",
+        "request-promise": "latest"
     }
 }
